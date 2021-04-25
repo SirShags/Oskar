@@ -32,7 +32,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 170 \n **Defense:**'+
                                                                     '\n 120 \n **HP:** \n 2000'},
-                                    {name: '**> Uses**', value: 'Good support or DPS for Grey Demons'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Attack, Defense'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -46,6 +48,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 300 \n **Defense:**'+
                                                                     '\n 220 \n **HP:** \n 3800'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -71,6 +76,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 520 \n **Defense:**'+
                                                                     '\n 385 \n **HP:** \n 6200'},
+                                    {name: '**> Red Demon**', value: 'Attack, Defense, good support for Red Escanor'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -84,6 +92,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 320 \n **Defense:**'+
                                                                     '\n 320 \n **HP:** \n 4400'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -97,7 +108,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 520 \n **Defense:**'+
                                                                     '\n 385 \n **HP:** \n 6200'},
-                                    {name: '**> Uses**', value: 'One of the top tiers for Red Demon'},
+                                    {name: '**> Red Demon**', value: 'Attack Defense, top tier'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -111,6 +124,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 520 \n **Defense:**'+
                                                                     '\n 385 \n **HP:** \n 6200'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'HP, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -124,6 +140,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 580 \n **Defense:**'+
                                                                     '\n 300 \n **HP:** \n 6000'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -152,6 +171,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 480 \n **Defense:**'+
                                                                     '\n 270 \n **HP:** \n 7000'},
+                                    {name: '**> Red Demon**', value: 'Attack, Defense'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -165,6 +187,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 474 \n **Defense:**'+
                                                                     '\n 270 \n **HP:** \n 6977'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -178,6 +203,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 480 \n **Defense:**'+
                                                                     '\n 270 \n **HP:** \n 7000'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Attack, Defense'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -191,6 +219,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 484 \n **Defense:**'+
                                                                     '\n 264 \n **HP:** \n 6578'},
+                                    {name: '**> Red Demon**', value: 'Attack Defense'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -204,6 +235,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 484 \n **Defense:**'+
                                                                     '\n 264 \n **HP:** \n 6578'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
@@ -217,6 +251,9 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '**> Base Stats**', value: '**Attack:** \n 380 \n **Defense:**'+
                                                                     '\n 180 \n **HP:** \n 4190'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
