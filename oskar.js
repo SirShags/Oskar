@@ -258,6 +258,165 @@ client.on('message', message => {
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
                 return message.channel.send(embed); 
+            case 'beatrice':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Beatrice')
+                                .setThumbnail('')
+                                .setDescription('Re:Zero')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 550 \n **Defense:**'+
+                                                                    '\n 380 \n **HP:** \n 6400'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
+                                    {name: '**> Gear**', value: 'Attack, Defense'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed);
+            case 'bellion':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Bellion')
+                                .setThumbnail('')
+                                .setDescription('Six Knights of Black')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 520 \n **Defense:**'+
+                                                                    '\n 420 \n **HP:** \n 7000'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
+                                    {name: '**> Gear**', value: 'Attack, Defense'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed);
+            case 'cain':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Cain')
+                                .setThumbnail('')
+                                .setDescription('Burning Ember')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 320 \n **Defense:**'+
+                                                                    '\n 120 \n **HP:** \n 4400'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
+                                    {name: '**> Gear**', value: 'Attack, Defense'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed);
+            case 'camilla':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Camilla')
+                                .setThumbnail('')
+                                .setDescription('Dark Executioner')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 520 \n **Defense:**'+
+                                                                    '\n 350 \n **HP:** \n 6800'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
+                                    {name: '**> Gear**', value: 'Attack, Defense'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed);
+            case 'deathpierce':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Deathpierce')
+                                .setThumbnail('')
+                                .setDescription('The Pleiades of the Azure Sky')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 540 \n **Defense:**'+
+                                                                    '\n 220 \n **HP:** \n 6500'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
+                                    {name: '**> Gear**', value: 'Attack, Defense'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed);
+            case 'deldry':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Deldry')
+                                .setThumbnail('')
+                                .setDescription('The Pleiades of the Azure Sky')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 450 \n **Defense:**'+
+                                                                    '\n 280 \n **HP:** \n 6000'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
+                                    {name: '**> Gear**', value: 'Defense, HP'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed);
+            case 'derieri:
+            case 'deri':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Derieri')
+                                .setThumbnail('')
+                                .addFields(
+                                    {name: '**> rderi or rderieri**', value: 'Red Deri'},
+                                    {name: '**> bderi or bderieri**', value: 'Blue Deri'},
+                                    {name: '**> gderi or gderieri**', value: 'Green Deri'}
+                                )
+                return message.channel.send(embed);
+            case 'bderi':
+            case 'bderieri':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Derieri')
+                                .setThumbnail('')
+                                .setDescription('SweetTemptation')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 560 \n **Defense:**'+
+                                                                    '\n 350 \n **HP:** \n 7000'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
+                                    {name: '**> Gear**', value: 'Defense, HP'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed);
+            case 'gderi':
+            case 'gderieri:
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Derieri')
+                                .setThumbnail('')
+                                .setDescription('Elite of the Demon Clan')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 560 \n **Defense:**'+
+                                                                    '\n 350 \n **HP:** \n 7000'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Not Recommended'},
+                                    {name: '**> Gear**', value: 'Attack, Defense'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed)
+            case 'rderi':
+            case 'rderieri:
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Derieri')
+                                .setThumbnail('')
+                                .setDescription('SweetTemptation')
+                                .addFields(
+                                    {name: '**> Base Stats**', value: '**Attack:** \n 560 \n **Defense:**'+
+                                                                    '\n 350 \n **HP:** \n 7000'},
+                                    {name: '**> Red Demon**', value: 'Not Recommended'},
+                                    {name: '**> Grey Demon**', value: 'Not Recommended'},
+                                    {name: '**> Crimson Demon**', value: 'Attack, Defense, Top tier unit'},
+                                    {name: '**> Gear**', value: 'Top two gears are Defense, bottom four are attack for PVE \n Top two gears are Crit Dam, bottom four are attack'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP for PVE set, Crit Dam pieces should be '}
+                                )
+                return message.channel.send(embed)
             case 'demon':
                 embed = new Discord.MessageEmbed()
                                 .setColor('RANDOM')
