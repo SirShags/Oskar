@@ -415,7 +415,7 @@ client.on('message', message => {
                                     {name: '**> Crimson Demon **', value: 'Attack, Defense, Top tier unit'},
                                     {name: '**> Gear **', value: 'Top two gears are Defense, bottom four are attack for'+
                                     'PVE \n Top two gears are Crit Dam, bottom four are attack'},
-                                    {name: '**> Subrolls**', value:'Attack, Defense, HP for PVE set \n '+
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP for PVE set\n'+
                                     'Crit Dam pieces should be 4 att, 6 crit dam '}
                                 )
                 return message.channel.send(embed);
