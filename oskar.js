@@ -354,7 +354,7 @@ client.on('message', message => {
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
                 return message.channel.send(embed);
-            case 'derieri:
+            case 'derieri':
             case 'deri':
                 embed = new Discord.MessageEmbed()
                                 .setColor('RANDOM')
@@ -384,7 +384,7 @@ client.on('message', message => {
                                 )
                 return message.channel.send(embed);
             case 'gderi':
-            case 'gderieri:
+            case 'gderieri':
                 embed = new Discord.MessageEmbed()
                                 .setColor('RANDOM')
                                 .setTitle('Derieri')
@@ -399,9 +399,9 @@ client.on('message', message => {
                                     {name: '**> Gear**', value: 'Attack, Defense'},
                                     {name: '**> Subrolls**', value:'Attack, Defense, HP'}
                                 )
-                return message.channel.send(embed)
+                return message.channel.send(embed);
             case 'rderi':
-            case 'rderieri:
+            case 'rderieri':
                 embed = new Discord.MessageEmbed()
                                 .setColor('RANDOM')
                                 .setTitle('Derieri')
@@ -413,10 +413,12 @@ client.on('message', message => {
                                     {name: '**> Red Demon**', value: 'Not Recommended'},
                                     {name: '**> Grey Demon**', value: 'Not Recommended'},
                                     {name: '**> Crimson Demon**', value: 'Attack, Defense, Top tier unit'},
-                                    {name: '**> Gear**', value: 'Top two gears are Defense, bottom four are attack for PVE \n Top two gears are Crit Dam, bottom four are attack'},
-                                    {name: '**> Subrolls**', value:'Attack, Defense, HP for PVE set, Crit Dam pieces should be '}
+                                    {name: '**> Gear**', value: 'Top two gears are Defense, bottom four are attack for'+
+                                    'PVE \n Top two gears are Crit Dam, bottom four are attack'},
+                                    {name: '**> Subrolls**', value:'Attack, Defense, HP for PVE set \n '+
+                                    'Crit Dam pieces should be 4 att, 6 crit dam '}
                                 )
-                return message.channel.send(embed)
+                return message.channel.send(embed);
             case 'demon':
                 embed = new Discord.MessageEmbed()
                                 .setColor('RANDOM')
