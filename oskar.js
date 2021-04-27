@@ -392,9 +392,9 @@ client.on('message', message => {
                                 .setColor('RANDOM')
                                 .setTitle('Derieri')
                                 .addFields(
-                                    {name: '> ** rderi or rderieri**', value: 'Red Deri'},
-                                    {name: '> ** bderi or bderieri**', value: 'Blue Deri'},
-                                    {name: '> ** gderi or gderieri**', value: 'Green Deri'}
+                                    {name: '> ** rderi or rderieri **', value: 'Red Deri'},
+                                    {name: '> ** bderi or bderieri **', value: 'Blue Deri'},
+                                    {name: '> ** gderi or gderieri **', value: 'Green Deri'}
                                 )
                 return message.channel.send(embed);
             case 'bderi':
@@ -446,8 +446,22 @@ client.on('message', message => {
                                     {name: '> ** Crimson Demon **', value: 'Attack, Defense, Top tier unit'},
                                     {name: '> ** Gear **', value: 'Top two gears are Defense, bottom four are attack for'+
                                     'PVE \n Top two gears are Crit Dam, bottom four are attack'},
-                                    {name: '> ** Subrolls**', value:'Attack, Defense, HP for PVE set\n'+
+                                    {name: '> ** Subrolls **', value:'Attack, Defense, HP for PVE set\n'+
                                     'Crit Dam pieces should be 4 att, 6 crit dam '}
+                                )
+                return message.channel.send(embed);
+            case 'diane':
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Diane')
+                                .addFields(
+                                    {name: '> ** *bgdiane **', value: 'Blue Giant Diane'},
+                                    {name: '> ** *srdiane **', value: 'Red SR Diane'},
+                                    {name: '> ** *ggdiane **', value: 'Green Giant Diane'},
+                                    {name: '> ** *rgdiane **', value: 'Red Giant SSR Diane'},
+                                    {name: '> ** *bfdiane **', value: 'Blue Fighter Diane'},
+                                    {name: '> ** *rfdiane **', value: 'Red Fighter Diane'},
+                                    {name: '> ** *gfdiane **', value: 'Green Fighter Diane'}
                                 )
                 return message.channel.send(embed);
             case 'bgdiane':
@@ -459,6 +473,23 @@ client.on('message', message => {
                                 .addFields(
                                     {name: '> ** Base Stats **', value: '**Attack:**\n484\n**Defense:**'+
                                                                     '\n264\n**HP:**\n6578'},
+                                    {name: '> ** Red Demon **', value: 'Not Recommended'},
+                                    {name: '> ** Grey Demon **', value: 'Not Recommended'},
+                                    {name: '> ** Crimson Demon **', value: 'Not Recommended'},
+                                    {name: '> ** Gear **', value: 'Attack, Defense'},
+                                    {name: '> ** Subrolls**', value:'Attack, Defense, HP'}
+                                )
+                return message.channel.send(embed);
+            case 'srdiane':
+                console.log("I'm in SR diane case")
+                embed = new Discord.MessageEmbed()
+                                .setColor('RANDOM')
+                                .setTitle('Diane')
+                                .setThumbnail('https://rerollcdn.com/SDSGC/portraits/portrait_58.png')
+                                .setDescription('Heart of the Land')
+                                .addFields(
+                                    {name: '> ** Base Stats **', value: '**Attack:**\n320\n**Defense:**'+
+                                                                    '\n180\n**HP:**\n4190'},
                                     {name: '> ** Red Demon **', value: 'Not Recommended'},
                                     {name: '> ** Grey Demon **', value: 'Not Recommended'},
                                     {name: '> ** Crimson Demon **', value: 'Not Recommended'},
