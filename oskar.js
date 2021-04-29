@@ -403,7 +403,7 @@ client.on('message', message => {
                                 .setColor('RANDOM')
                                 .setTitle('Derieri')
                                 .setThumbnail('https://rerollcdn.com/SDSGC/portraits/portrait_164.png')
-                                .setDescription('SweetTemptation')
+                                .setDescription('Sweet Temptation')
                                 .addFields(
                                     {name: '> ** Base Stats **', value: '**Attack:**\n560\n**Defense:**'+
                                                                     '\n350\n**HP:**\n7000'},
@@ -437,7 +437,7 @@ client.on('message', message => {
                                 .setColor('RANDOM')
                                 .setTitle('Derieri')
                                 .setThumbnail('https://rerollcdn.com/SDSGC/portraits/portrait_114.png')
-                                .setDescription('SweetTemptation')
+                                .setDescription('Ten Commandments')
                                 .addFields(
                                     {name: '> ** Base Stats **', value: '**Attack:**\n560\n**Defense:**'+
                                                                     '\n350\n**HP:**\n7000'},
