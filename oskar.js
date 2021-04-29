@@ -481,7 +481,6 @@ client.on('message', message => {
                                 )
                 return message.channel.send(embed);
             case 'srdiane':
-                console.log("I'm in SR diane case")
                 embed = new Discord.MessageEmbed()
                                 .setColor('RANDOM')
                                 .setTitle('Diane')
@@ -497,6 +496,8 @@ client.on('message', message => {
                                     {name: '> ** Subrolls**', value:'Attack, Defense, HP'}
                                 )
                 return message.channel.send(embed);
+            case 'test':
+                console.log('this is a test');
             case 'demon':
                 embed = new Discord.MessageEmbed()
                                 .setColor('RANDOM')
